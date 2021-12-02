@@ -1,5 +1,5 @@
 body {
-	background-color: cadetblue;
+	background-color: rgba(108, 108, 108, 0.8);
 }
 
 img {
@@ -11,7 +11,6 @@ img {
 }
 #slider {
 	overflow: hidden;
-	background-image: url("/picture/merry.png");
 }
 #slider figure {
 	position: relative;
@@ -52,4 +51,27 @@ img {
 	100% {
 		left: -300%;
 	}
+}
+
+table,
+th,
+td {
+	border: 3px solid rgb(215, 215, 233);
+}
+button {
+	border-radius: 5px;
+}
+table th {
+	text-align: center;
+}
+
+table {
+	margin: auto;
+	width: 90% !important;
+}
+.card {
+	background-color: rgb(202, 191, 189);
+}
+.card-title {
+	text-align: center;
 }
