@@ -97,6 +97,7 @@ export default () => {
 		firstDiv.style.display = "none";
 		secondDiv.style.display = "none";
 		thirdDiv.style.display = "block";
+		thirdDiv.style.left = "40px";
 		const username = document.querySelector("#username");
 		const useremail = document.querySelector("#useremail");
 		const userphone = document.querySelector("#userphone");
@@ -110,7 +111,6 @@ export default () => {
 
 				username.innerHTML = "Name:- " + childData.username;
 				userphone.innerHTML = "Phone number:- " + childData.number;
-				usersport.innerHTML = "Favourite sprot:- " + childData.fsport;
 				useraddress.innerHTML = "Address:- " + childData.address;
 			});
 		});
