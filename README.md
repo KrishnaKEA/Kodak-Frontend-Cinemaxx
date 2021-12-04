@@ -3,7 +3,7 @@
 
 Here is our 1st Sprint release as of 05/12 
 
-Frontend Project for our Backend API developed using Java and Spring Framework.
+<strong>Frontend Project</strong> for our <strong>Backend API</strong> developed using Java and Spring Framework.
 
 
 Prerequisites
