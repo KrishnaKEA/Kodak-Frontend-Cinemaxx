@@ -5,7 +5,7 @@ Here is our 1st Sprint release as of 05/12
 
 <strong>Frontend Project</strong> for our <strong>Backend API</strong> developed using Java and Spring Framework.
 
-<img src="./cinemaView.png" alt="cinemaView"/>
+<img src="/picture/cinemaView.png" alt="cinemaView"/>
 
 Prerequisites
 
