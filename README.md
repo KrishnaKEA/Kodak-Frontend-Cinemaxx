@@ -5,7 +5,7 @@ Here is our 1st Sprint release as of 05/12
 
 <strong>Frontend Project</strong> for our <strong>Backend API</strong> developed using Java and Spring Framework. The <strong>Frontend Project</strong> is fully developped with Vanilla <strong>JavaScript</strong> and Navigo for routing.
 
-<img src="./cinemaView.png" alt="cinemaView" width="300">
+<img src="/picture/cinemaView.png" alt="cinemaView"/>
 
 Prerequisites
 
