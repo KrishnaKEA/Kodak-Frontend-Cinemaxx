@@ -11,6 +11,9 @@ export default () => {
 	let month = today.getMonth();
 	let movieid = 0;
 
+	let day = new Date().getDate();
+	let month = today.getMonth();
+
 	let id = 0;
 	let selectedDate = "";
 	let selectedSlot = "";
@@ -64,6 +67,7 @@ export default () => {
 		div3object.style.display = "none";
 		div4object.style.display = "block";
 	}
+
 
 	const moringButtonObject = document.querySelector("#morning");
 	slotButtonArray.push(moringButtonObject);
@@ -126,6 +130,17 @@ export default () => {
 						.catch((error) => {
 							console.log(error);
 						});
+				.then((movieData) => {
+					console.log(movieData);
+					const movieNameElement = document.createElement("li");
+					movieNameElement.innerHTML = movieData[0].movieId;
+					movieDisplayUlObj.appendChild(movieNameElement);
+					const movieImageElement = document.createElement("img");
+					movieImageElement.setAttribute("src", "./picture/merry.png");
+					movieImageElement.style.width = "200px";
+					movieImageElement.style.height = "200px";
+
+					movieDisplayUlObj.appendChild(movieImageElement);
 				})
 				.catch((error) => {
 					console.log(error);
